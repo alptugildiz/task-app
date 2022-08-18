@@ -45,6 +45,14 @@ body {
     top: -10px;
     font-weight: 500;
 }
+.detailedAdress-2{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    left: 8px;
+    top: 1px;
+    font-weight: 600;
+}
 .blackPhoneText {
     position: relative;
     color: rgb(0, 0, 0);
@@ -217,7 +225,19 @@ body {
     position: relative;
     left: 30px;
 }
+.toTheRight-3{
+    position: relative;
+    left: 15px;
+}
 
+.toThebottom-more{
+    position: relative;
+    top: 35px;
+}
+.toThebottom-3{
+    position: relative;
+    top: 15px;
+}
 
 .d-flex {
     position: relative;
@@ -286,6 +306,49 @@ html, body {
     background-color: transparent;
     width: 350px;
     margin-left: 15px;
+}
+.dashedHr-2 {
+    position: relative;
+    border-top: 2px dashed gray;
+    background-color: transparent;
+    width: 330px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.info1{
+    position: relative;
+    font-size: 13px;
+    top: -10px;
+    font-weight: 600;
+
+}
+.info2{
+    position: relative;
+    font-size: 20px;
+    top: -30px;
+    color: #23AA49;
+    font-weight: 900;
+
+}
+.hr180{
+    border-top: 2px dashed black ;
+    position: relative;
+    background-color: transparent;
+    width: 25px;
+    top: -8px;
+    left: -3px;
+    transform: rotate(90deg);
+    opacity: 1;
+}
+.hr180-solid{
+    border-top: 1px solid gray ;
+    position: relative;
+    background-color: transparent;
+    width: 25px;
+    top: 45px;
+    left: 35px;
+    transform: rotate(90deg);
+    opacity: 1;
 }
 
 /* HR DESIGN END  */
