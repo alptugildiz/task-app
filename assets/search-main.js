@@ -8,11 +8,9 @@ var sonuc2;
 
 const updateSonuc1 = debounce((text) => {
     sonuc1 = text
-    console.log(sonuc1)
 })
 const updateSonuc2 = debounce((text) => {
     sonuc2 = text
-    console.log(sonuc2)
 })
 
 input1.addEventListener("input", e => {
@@ -30,7 +28,6 @@ function debounce(cb, delay = 1500) {
             cb(...args)
         }, delay)
     }
-
 }
 
 setInterval(function () {
