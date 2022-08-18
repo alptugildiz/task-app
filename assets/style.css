@@ -2,20 +2,12 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* CARD DESIGN START */
+
 .card-white-header {
     background-color: white;
     margin: 0px;
     position: relative;
-}
-
-.bottomMenu {
-    position: relative;
-    bottom:200px;
-}
-
-.card {
-    background: transparent;
-    z-index: 99;
 }
 
 .card-blue-header {
@@ -27,6 +19,38 @@ body {
     position: relative;
 }
 
+.card {
+    background: transparent;
+    z-index: 99;
+    border: none;
+}
+
+.borderSection{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* CARD DESIGN END  */
+
+
+/* TEXT DESING START  */
+
+.detailedAdress{
+    position: relative;
+    color: black;
+    font-size: 15px;
+    left: 38px;
+    top: -10px;
+    font-weight: 500;
+}
+.blackPhoneText {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    left: -13px;
+}
 .money {
     color: #23AA49;
     font-weight: 600;
@@ -46,6 +70,33 @@ body {
     top: -20px;
     letter-spacing: 0px;
 }
+
+.whitePhoneText {
+    position: relative;
+    color: white;
+    font-size: 11px;
+    left: -13px;
+}
+.savedPlacesText{
+    position: relative;
+    color: black;
+    font-size: 18px;
+    left: 15px;
+    top: 0px;
+    font-weight: bolder;
+}
+.savedPlacesText-2{
+    position: relative;
+    color: black;
+    font-size: 22px;
+    left: 15px;
+    top: 5px;
+    font-weight: 800;
+}
+
+/* TEXT DESIGN END */ 
+
+/* ICON DESIGN START */
 
 .main-icon {
     position: relative;
@@ -68,88 +119,6 @@ body {
     height: 48px;
     left: -60px;
 }
-
-.circle {
-    background-color: white;
-    width: 17px;
-    height: 17px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 5px;
-    margin-top: 3px;
-}
-
-.red-circle {
-    background-color: red;
-    color: white;
-    text-align: center;
-    font-size: 8px;
-    width: 12px;
-    height: 12px;
-    position: relative;
-    left: 25px;
-    top: -5px;
-    border-radius: 50%;
-    margin-right: 5px;
-    margin-top: 3px;
-}
-
-.circle-2 {
-    background-color: white;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 5px;
-    margin-top: 5px;
-}
-
-.circle-3 {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    background-color: white;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 5px;
-    margin-top: 28px;
-
-}
-
-.circle-main {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    background-color: blue;
-    text-align: center;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 5px;
-    box-shadow: 0px 12px 25px rgba(47, 31, 218, 0.3);
-}
-
-.card {
-    border: none;
-}
-
-.second-row {
-    position: relative;
-    top: 20px;
-}
-
-.dashedHr{
-    border-top: 2px dashed gray ;
-    background-color: transparent;
-    width: 350px;
-    margin-left: 15px;
-}
-.solidHr{
-    border-top: 2px solid gray ;
-    background-color: transparent;
-    width: 350px;
-    margin-left: 15px;
-}
-
 
 .left-arrow-icon {
     position: relative;
@@ -236,6 +205,9 @@ body {
     filter: brightness(0) invert(0);
 }
 
+/* ICON DESING END  */
+
+/* POSITION DESIGN START  */
 .toTheRight {
     position: relative;
     left: 25px;
@@ -246,43 +218,7 @@ body {
     left: 30px;
 }
 
-.whitePhoneText {
-    position: relative;
-    color: white;
-    font-size: 11px;
-    left: -13px;
-}
-.savedPlacesText{
-    position: relative;
-    color: black;
-    font-size: 18px;
-    left: 15px;
-    top: 0px;
-    font-weight: bolder;
-}
-.savedPlacesText-2{
-    position: relative;
-    color: black;
-    font-size: 22px;
-    left: 15px;
-    top: 5px;
-    font-weight: 800;
-}
 
-.detailedAdress{
-    position: relative;
-    color: black;
-    font-size: 15px;
-    left: 38px;
-    top: -10px;
-    font-weight: 500;
-}
-.blackPhoneText {
-    position: relative;
-    color: rgb(0, 0, 0);
-    font-size: 11px;
-    left: -13px;
-}
 .d-flex {
     position: relative;
     top: -10px;
@@ -315,6 +251,46 @@ html, body {
     margin-right:10px
 }
 
+
+.second-row-sm{
+    position: relative;
+    top: 50px;
+}
+.second-row-md
+{
+    position: relative;
+    top: 80px;
+}
+.bottomMenu {
+    position: relative;
+    bottom:200px;
+}
+
+.second-row {
+    position: relative;
+    top: 20px;
+}
+
+/* POSITION DESIGN END */
+
+/* HR DESIGN START  */
+
+.dashedHr{
+    border-top: 2px dashed gray ;
+    background-color: transparent;
+    width: 350px;
+    margin-left: 15px;
+}
+.solidHr{
+    border-top: 2px solid gray ;
+    background-color: transparent;
+    width: 350px;
+    margin-left: 15px;
+}
+
+/* HR DESIGN END  */
+
+/* INPUT DESIGN START  */
 .myInputLabel{
     width: 100% !important;
     padding-left: 50px !important;
@@ -334,12 +310,67 @@ html, body {
     color: black;
     font-size: 14px;
 }
-.second-row-sm{
-    position: relative;
-    top: 50px;
+
+/* INPUT DESIGN END  */
+
+/* CIRCLE DESIGN START  */
+.circle {
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
 }
-.second-row-md
-{
+
+.red-circle {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    width: 12px;
+    height: 12px;
     position: relative;
-    top: 80px;
+    left: 25px;
+    top: -5px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 3px;
 }
+
+.circle-2 {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.circle-3 {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    margin-top: 28px;
+
+}
+
+.circle-main {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: blue;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    box-shadow: 0px 12px 25px rgba(47, 31, 218, 0.3);
+}
+
+/* CIRCLE DESIGN END */
